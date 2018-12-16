@@ -1,0 +1,15 @@
+.Container {
+  box-sizing: border-box;
+  flex: 1;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  min-height: 100px;
+  max-height: 15vh;
+  padding: 10px;
+  color: #fff;
+  text-shadow: 1px 1px 5px #000;
+}

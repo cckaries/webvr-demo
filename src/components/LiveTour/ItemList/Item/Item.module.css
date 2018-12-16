@@ -1,0 +1,29 @@
+.Container {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  width: auto;
+  margin: 0 20px;
+  padding: 10px 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Container > img {
+  box-sizing: border-box;
+  display: block;
+  height: auto;
+  max-width: 160px;
+  margin-bottom: 5px;
+  border: 5px solid #fff;
+  overflow: hidden;
+}
+
+.Container:active > img,
+.Container.active > img {
+  border-color: #49b9fb;
+}
